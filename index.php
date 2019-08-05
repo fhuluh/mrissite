@@ -29,7 +29,7 @@
      <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
     <meta name="DC.rights" scheme="DCTERMS.URI" content="Copyright &copy; 2019 Multi-Racial Information Systems..">
     <meta name="DC.format" content="text/html" />
-  <meta name="DC.identifier" scheme="DCTERMS.URI" content="www.bontlebame.org.za" />
+  <meta name="DC.identifier" scheme="DCTERMS.URI" content="www.mris.co.za" />
 
   <base href="www.mris.co.za" />
 <base href="mris.co.za" />

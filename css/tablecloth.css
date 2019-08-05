@@ -1,0 +1,83 @@
+
+
+/* general styles */
+
+table, td{
+	font-family:calibri;
+	font-size:14px;
+	color:#666;
+
+}
+table{width:100%;
+      border-collapse:collapse;
+
+	  }
+
+th, td{text-align:center;
+       padding:.1em;border:0px solid #fff;
+	   }
+th{background: #800080; border-left:1px solid #fff; color:#fff; font-size:16px; }
+td{background:#e5f1f4; font-size:13px;}
+
+/* tablecloth styles */
+
+tr.even td{background:#DDD;}
+tr.odd td{background:#FFF;opacity:0.4; /* for IE8 and earlier */}
+
+th.over, tr.even th.over, tr.odd th.over{background:url(../img/caption-bg.png); color:#C6F;}
+th.down, tr.even th.down, tr.odd th.down{background:url(../img/caption-bg.png);color:#C6F;}
+th.selected, tr.even th.selected, tr.odd th.selected{background:url(../img/caption-bg.png);color:#C6F;}
+
+td.over, tr.even td.over, tr.odd td.over{background:url(../img/caption-bg.png); color:#FFF;}
+td.down, tr.even td.down, tr.odd td.down{background:url(../img/caption-bg.png);color:#fff;}
+td.selected, tr.even td.selected, tr.odd td.selected{background:url(../img/caption-bg.png);color:#FFF;}
+
+
+
+/* use this if you want to apply different styleing to empty table cells*/
+td.empty, tr.odd td.empty, tr.even td.empty{background:#fff;}
+
+.pricing {
+	position:relative;
+	top:-15px;
+	left:-43px;
+	font:100% calibri, sans-serif;
+
+}
+
+
+/* general styles */
+
+table, td{
+	font-family:calibri;
+	font-size:14px;
+
+
+}
+table{width:1144px;
+      border-collapse:collapse;
+
+	  position:absolute;
+      left:20px;
+
+
+	  }
+
+th, td{text-align:center;
+       padding:.1em;border:0px solid #fff;
+	   }
+th{background: #800080; border-left:1px solid #fff; color:#fff; font-size:16px; }
+td{background:#e5f1f4; font-size:13px;}
+
+/* tablecloth styles */
+
+tr.even td{background:#DDD;}
+tr.odd td{background:#FFF;opacity:0.4; /* for IE8 and earlier */}
+
+th.over, tr.even th.over, tr.odd th.over{background: url(../img/caption-bg.png); color:#C6F;}
+th.down, tr.even th.down, tr.odd th.down{background:url(../img/caption-bg.png);color:#C6F;}
+th.selected, tr.even th.selected, tr.odd th.selected{background:url(../img/caption-bg.png);color:#C6F;}
+
+td.over, tr.even td.over, tr.odd td.over{background:url(../img/caption-bg.png); color:#FFF;}
+td.down, tr.even td.down, tr.odd td.down{background:url(../img/caption-bg.png);color:#fff;}
+td.selected, tr.even td.selected, tr.odd td.selected{background:url(../img/caption-bg.png);color:#FFF;}

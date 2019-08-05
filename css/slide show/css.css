@@ -1,0 +1,251 @@
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+#iview {
+	position:relative;
+	left:0px;
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+#iview .iviewSlider {
+	position:relative;
+	top:0px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 0px;
+}
+
+.iview-controlNav {
+	position: absolute;
+	bottom: 30px;
+	left: 570px;
+	height: 44px;
+}
+
+.iview-controlNav a {
+	text-indent: -9999px;
+}
+
+.iview-controlNav a.iview-controlPrevNav {
+	float: left;
+	width: 50px;
+	height: 44px;
+	background:url('../../img/slider-controls.png') no-repeat;
+}
+
+.iview-controlNav a.iview-controlNextNav {
+	float: left;
+	width: 50px;
+	height: 44px;
+	background:url('../../img/slider-controls.png') no-repeat -50px 0px;
+}
+
+.iview-controlNav div.iview-items {
+	float: left;
+	padding: 0px 10px 0px 10px;
+	height: 44px;
+	background: url('../../img/nav-bg.png');
+}
+
+.iview-controlNav a.iview-control {
+	padding: 0px;
+	float: left;
+	width: 11px;
+	height: 12px;
+	background: url('../../img/bullets.png') no-repeat;
+	line-height: 0px;
+}
+
+.iview-controlNav a.iview-control.active {
+	background-position: 0px -12px;
+}
+
+.iview-caption {
+	background: url('../../img/caption-bg.png');
+	color: #FFF;
+	border-radius: 3px;
+	padding: 10px 15px;
+	font-family: Verdana;
+	font-size: 12px;
+	text-shadow: #000 1px 1px 0px;
+}
+
+.iview-caption.caption1 {
+	background: #09F;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	font-size: 12px;
+	width:870px;
+	
+}
+
+.iview-caption.caption11 {
+	background: #09F;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	font-size: 12px;
+	width:480px;
+	
+}
+
+.iview-caption.caption2 {
+	background: #09F;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	font-size: 12px;
+	height:70px;
+	width:800px;
+	text-shadow: none;
+}
+
+.iview-caption.caption3 {
+	color: #FFF;
+	font-size: 36px;
+	text-shadow: none;
+}
+
+.iview-caption.caption4 {
+	font-size: 22px;
+	font-weight: bold;
+		height:70px;
+	width:800px;
+}
+.iview-caption.caption4s {
+	font-size: 22px;
+	font-weight: bold;
+		height:70px;
+	width:680px;
+}
+
+.iview-caption.caption5 {
+	background: #09F ;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	font-size: 12px;
+	height: 140px;
+	width:800px;
+	text-shadow: none;
+
+}
+
+.iview-caption.caption55 {
+	background: #09F;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	font-size: 12px;
+	height:130px;
+	width:400px;
+	text-shadow: none;
+}
+
+.iview-caption.caption6 {
+	font-size: 18px;
+		height:58px;
+	width:170px;
+}
+
+.iview-caption.caption7 {
+	background: #09F;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	font-size: 12px;
+	color: #fff;
+	
+	border-radius: 5px;
+}
+
+.iview-caption.caption7 div {
+	line-height: 200%;
+}
+
+.iview-caption.caption7 h3 {
+	margin-bottom: 20px;
+	color: #FFF;
+}
+
+.iview-caption.blackcaption {
+	background: #000;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+		height:90px;
+	width:370px;
+}
+
+.iview-caption.blackcaption2 {
+	background: #000;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+		height:55px;
+		width:550px;
+	
+}
+.iview-caption.blackcaption3 {
+	background: #000;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+		height:55px;
+		width:550px;
+	
+}
+.iview-caption.blackcaption4 {
+	background: #000;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+		height:55px;
+		width:550px;
+	
+}
+
+#iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+
+#iview-preloader div {
+	background: #666;
+}
+
+.iview-controlNav div.iview-items ul li {
+	padding: 0px;
+	float: left;
+	width: 11px;
+	height: 12px;
+	margin: 3px;
+	margin-top: 16px;
+	line-height: 0px;
+}
+
+#iview #iview-tooltip {
+	display: none;
+}
+
+#iview #iview-tooltip div.holder {
+	display: block;
+	width: 124px;
+	height: 84px;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+#iview #iview-tooltip div.holder div.container {
+	display: block;
+	width: 4000px;
+}
+
+#iview #iview-tooltip div.holder div.container div {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 124px;
+	height: 84px;
+	left: -50%;
+	text-align: center;
+}
+
+#iview #iview-tooltip div.holder div.container div img {
+	height: 84px;
+	margin: 0 auto;
+}
+
+#vlightbox a#vlb{display:none}
